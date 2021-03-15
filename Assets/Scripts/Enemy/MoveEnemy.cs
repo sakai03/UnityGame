@@ -56,7 +56,6 @@ public class MoveEnemy : MonoBehaviour
             if (state == EnemyState.Chase)
             {
                 animator.SetFloat("Speed", 3.5f);
-                SetState(EnemyState.Chase);
                 destination = playerTransform.position;
                 navMeshAgent.SetDestination(playerTransform.position);
             }
