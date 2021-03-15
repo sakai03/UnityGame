@@ -58,6 +58,7 @@ public class MoveEnemy : MonoBehaviour
                 animator.SetFloat("Speed", 3.5f);
                 destination = playerTransform.position;
                 navMeshAgent.SetDestination(playerTransform.position);
+                this.transform.LookAt(playerTransform);
             }
             //エージェントの潜在的な速度を設定
             animator.SetFloat("Speed", navMeshAgent.desiredVelocity.magnitude);
