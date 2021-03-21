@@ -162,9 +162,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 45048669}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 377e2f68f5d644396b0c485b53cc3644, type: 3}
+  m_Script: {fileID: 11500000, guid: 41a765c5bf63b459fa702a2713abb12a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onlyForwardSearch: {fileID: 45048671}
+  searchArea: {fileID: 45048672}
+  searchAngle: 70
 --- !u!135 &45048672
 SphereCollider:
   m_ObjectHideFlags: 0
